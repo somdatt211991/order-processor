@@ -1,0 +1,16 @@
+{
+  "customerId": "CUST-001",
+  "items": [
+    {
+      "productId": "PROD-101",
+      "quantity": 2,
+      "price": 29.99
+    },
+    {
+      "productId": "PROD-102",
+      "quantity": 1,
+      "price": 14.50
+    }
+  ],
+  "totalAmount": 74.48
+}
