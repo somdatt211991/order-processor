@@ -15,7 +15,7 @@ The server starts only after both MongoDB and RabbitMQ connections are establish
 
 ## Features
 
-- **Order API**: Create orders with validation; returns order ID and status.
+- **Order API**: Create  with validation; returns order ID and status.
 - **MongoDB**: Persistent storage; connection at startup with configurable database and collection.
 - **RabbitMQ**: Queues `order-queue` (order persistence) and `healthCheck-queue` (health checks).
 - **Consumer**: Order messages are consumed and inserted into MongoDB with ack/nack handling.
